@@ -1,0 +1,96 @@
+body {
+	background: linear-gradient(180deg, rgba(36, 150, 47, 0.0188) 0%, rgba(255, 255, 255, 0) 100%), 
+	linear-gradient(0deg, rgba(62, 176, 73, 0.54), rgba(62, 176, 73, 0.54));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: #3EB049;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #3EB049;
+}
+.ca:hover {
+	text-decoration: underline;
+}
+.btn{
+	background: linear-gradient(180deg, rgba(36, 150, 47, 0.04) 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(0deg, rgba(62, 176, 73, 0.54), rgba(62, 176, 73, 0.54));
+cursor: pointer;
+}
+.intro{
+	color: #FFFFFF;
+	margin-right: 150px;
+}

@@ -1,0 +1,105 @@
+body {
+	background: linear-gradient(180deg, rgba(36, 150, 47, 0.0188) 0%, rgba(255, 255, 255, 0) 100%), 
+	linear-gradient(0deg, rgba(62, 176, 73, 0.54), rgba(62, 176, 73, 0.54));
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+.container-md {
+    background-color: white;
+    padding:10px;
+}
+
+.row {
+    padding: 20px;
+}
+
+.col {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+#namaPeminjam {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+#tglPeminjaman {
+    width: 100%;
+}
+
+#waktuPeminjaman {
+    width: 100%;
+}
+
+#kegiatanKampus {
+    width: 100%;
+}
+
+#desKegiatan {
+    width: 100%;
+}
+
+#scanKtm {
+    width: 100%;
+}
+
+.btn-outline-success {
+    margin-left: 9pc;
+    margin-top: 10px;
+}
+
+.btn1{
+	background: linear-gradient(180deg, rgba(36, 150, 47, 0.04) 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, rgba(62, 176, 73, 0.54), rgba(62, 176, 73, 0.54));
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #198754;
+    border-color: #198754;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    margin-left: 9pc;
+    margin-top: 10px;
+}
+
+.logout {
+    text-decoration: none;
+    color:#fff;
+}
+
+.logout:hover {
+    color: black;
+}
